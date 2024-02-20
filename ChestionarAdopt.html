@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formular de Adopție</title>
+  <link rel="stylesheet" href="css/styleChestionar.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Formular de Adopție</h2>
+  <form action="destinatia_formularului.php" method="post">
+    <label for="nume">Numele complet:</label>
+    <input type="text" id="nume" name="nume" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefon">Număr de telefon:</label>
+    <input type="text" id="telefon" name="telefon" required>
+
+    <label for="adresa">Adresa:</label>
+    <input type="text" id="adresa" name="adresa" required>
+
+    <label for="mesaj">De ce dorești să adopți un animal?</label>
+    <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+
+    <button type="submit">Trimite Formularul</button>
+  </form>
+</div>
+
+</body>
+</html>
