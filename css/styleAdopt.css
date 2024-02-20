@@ -16,6 +16,9 @@
 
 /* Stilizarea listei de navigare */
 ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -24,13 +27,6 @@ ul {
 }
 
 /* Stilizarea link-urilor din bara de navigare */
-ul li a {
-  display: block;
-  color: white; /* Schimbă culoarea textului */
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 /* Efect la hover pentru link-uri */
 ul li a:hover {
@@ -54,16 +50,6 @@ ul:after {
   clear: both;
 }
 
-/* Tranziții netede pentru link-uri */
-ul li a {
-  transition: background-color 0.3s; /* Adaugă o tranziție pentru schimbarea culorii de fundal */
-}
-
-/* Stilurile generale ale paginii */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
 
 /* Antetul paginii */
 header {
@@ -76,9 +62,7 @@ header {
   height: auto;
 }
 
-.custom-hr {
-  margin-top: 20px;
-}
+
 
 /* Stiluri pentru navigatie */
 ul {
@@ -97,13 +81,8 @@ ul li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 30px;
   text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 ul li a.active {
@@ -119,12 +98,16 @@ ul li.right {
 #adopt {
   background-color: #f9f9f9;
   padding: 20px;
+  width: 70%;
+  margin: auto;
   margin-top: 20px;
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 .filter-options {
@@ -181,7 +164,4 @@ a.button:hover {
     grid-template-columns: 1fr;
   }
 
-  .container {
-    width: 95%;
-  }
 }

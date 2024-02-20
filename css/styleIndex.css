@@ -16,6 +16,9 @@
 
 /* Stilizarea listei de navigare */
 ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,7 +31,7 @@ ul li a {
   display: block;
   color: white; /* Schimbă culoarea textului */
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 30px;
   text-decoration: none;
 }
 
