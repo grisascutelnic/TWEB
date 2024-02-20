@@ -1,0 +1,60 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 390px; /* Specifică lățimea fixă */
+  height: 120px; /* Specifică înălțimea fixă */
+}
+
+.custom-hr {
+  width: 20%;
+  text-align: left;
+  margin-left: 40%;
+}
+
+
+/* Stilizarea listei de navigare */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; /* Schimbă culoarea de fundal */
+}
+
+/* Stilizarea link-urilor din bara de navigare */
+ul li a {
+  display: block;
+  color: white; /* Schimbă culoarea textului */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Efect la hover pentru link-uri */
+ul li a:hover {
+  background-color: #111; /* Schimbă culoarea de fundal la hover */
+}
+
+/* Stilizarea link-ului activ (pagina curentă) */
+ul li a.active {
+  background-color: #4CAF50; /* Schimbă culoarea de fundal pentru link-ul activ */
+}
+
+/* Ajustarea pentru elementele 'li' să fie orizontale, nu verticale */
+ul li {
+  float: left;
+}
+
+/* Asigură că elementele 'li' nu se suprapun pe conținutul de sub navigație */
+ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Tranziții netede pentru link-uri */
+ul li a {
+  transition: background-color 0.3s; /* Adaugă o tranziție pentru schimbarea culorii de fundal */
+}

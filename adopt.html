@@ -1,70 +1,56 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Adoptex</title>
-  <link rel="stylesheet" href="css/style.css">
-
-  <!--  <link rel="icon" href="img/favicon.ico" sizes="any">-->
-  <!--  <link rel="icon" href="img/icon.svg" type="image/svg+xml">-->
-  <!--  <link rel="apple-touch-icon" href="img/icon.png">-->
-
+  <link rel="stylesheet" href="styleAdopt.css">
 </head>
 
 <body>
-<img src="img/upImg.png" alt="UpImg" class="center" style="width: 20px">
+<header>
+  <img src="img/upImg.png" alt="UpImg" class="center">
+  <hr class="custom-hr">
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="adopt.html">Adopt</a></li>
+    <li><a href="donate.html">Donate</a></li>
+    <li style="float:right"><a href="#about">About</a></li>
+  </ul>
+</header>
 
-<ul>
-  <li> <a href="index.html">Home</a></li>
-  <li> <a class="active"  href="adopt.html">Adopt</a></li>
-  <li> <a href="donate.html">Donate</a></li>
-  <li style="float:right"><a href="#about">About</a></li>
-</ul>
+<section id="adopt">
+  <div class="container">
+    <h2>Animale Disponibile pentru Adopție</h2>
+    <input type="text" id="searchBar" placeholder="Caută un prieten...">
+    <div class="filter-options">
+      <button onclick="filter('All')">Toate</button>
+      <button onclick="filter('Cats')">Pisici</button>
+      <button onclick="filter('Dogs')">Câini</button>
+      <button onclick="filter('Rodents')">Rozătoare</button>
+    </div>
+    <div class="animal-gallery">
+      <!-- Locul unde vor fi afișate animalele -->
+    </div>
+    <div class="adoption-process">
+      <h3>Cum să Adopți</h3>
+      <p>Află mai multe despre procesul de adopție și cum poți deveni un erou pentru un prieten necuvântător.</p>
+      <a href="adoption-form.html">Formular de Adopție</a>
+    </div>
+    <div class="testimonials">
+      <h3>Povești de Succes</h3>
+      <!-- Locul pentru testimoniale -->
+    </div>
+    <div class="donation">
+      <h3>Susține Adăpostul</h3>
+      <p>Fiecare contribuție ne ajută să oferim îngrijire mai bună și să salvăm mai multe vieți.</p>
+      <a href="donate.html">Donează Acum</a>
+    </div>
+  </div>
+</section>
 
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
-<h1>Salut eu is Dima si asta e prima pagina</h1>
+<!-- Restul conținutului paginii -->
 
 </body>
 
